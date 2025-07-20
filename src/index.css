@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  @apply bg-gradient-to-br from-slate-50 via-purple-50 to-violet-100 dark:from-gray-900 dark:via-purple-900/20 dark:to-violet-900/20 text-gray-900 dark:text-white transition-colors duration-300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  @apply transition-colors duration-200;
+}
